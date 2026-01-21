@@ -1,4 +1,27 @@
-# Everything Claude Code
+# Everything Copilot (Migrated from Claude Code)
+
+**🚀 NEW: Complete GitHub Copilot Agent Migration Plan Available!**
+
+This repository has been forked and adapted to create a comprehensive migration plan from Claude Code to GitHub Copilot Agent. See **[MIGRATION_GUIDE.md](./MIGRATION_GUIDE.md)** for the complete migration strategy.
+
+---
+
+## 📋 Migration Plan
+
+This repository now includes a **production-ready migration plan** (6,000+ lines across 11 files) that guides you through converting Claude Code configurations to GitHub Copilot Agent:
+
+- **Rules** → AGENTS.md (global and nested instructions)
+- **9 Agents** → Custom Agents (`.github/agents/*.agent.md`)
+- **Skills** → Agent Skills (`.github/skills/*/SKILL.md`)
+- **Commands** → Hybrid approach (agents + prompts)
+- **Hooks** → GitHub Actions + pre-commit hooks
+- **MCP Servers** → Tool configuration
+
+**👉 Start here**: [MIGRATION_GUIDE.md](./MIGRATION_GUIDE.md) | [migration-plan/](./migration-plan/)
+
+---
+
+## Original: Everything Claude Code
 
 **The complete collection of Claude Code configs from an Anthropic hackathon winner.**
 
